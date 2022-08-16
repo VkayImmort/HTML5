@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@200;400;500;600;700;800;900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Kanit', sans-serif;
+}
+:root{
+    --co1:rgb(255, 255, 255);
+    --co2:rgba(0,0,255,0.5);
+}
+.head{
+    background:linear-gradient(to right bottom, rgba(0,0,0,0), rgba(0,0,0,1)), url(../images2/bg.jpg) center/cover no-repeat fixed;
+    width:100vw;
+    height:100vh;
+    color:var(--co1);
+    position:relative;
+}
+.nav{
+  display:inline;
+  margin:10px 20px;
+  position:absolute;
+}
+.nav i{
+    position:absolute;
+    left:43rem;
+    top:4px;
+    font-size:30px;
+    cursor:pointer;
+}
+.des{
+    position:absolute;
+    text-align:center;
+    left:35rem;
+    MARGIN:0 100px;
+    top:15rem;
+}
+.about p{
+    width:40vw;
+    height:100vh;
+}
+.about  img{
+    width:60vw;
+    height:100vh;
+    float:right;
+}
+
