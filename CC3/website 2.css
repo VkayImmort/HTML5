@@ -7,7 +7,13 @@
 }
 :root{
     --co1:rgb(255, 255, 255);
+<<<<<<< HEAD
     --co2:rgba(0,0,255,0.5);
+=======
+    --co2:rgb(71, 128, 233);
+    --co3:rgb(7, 30, 56);
+    --co4:black;
+>>>>>>> 4d8cca7 (Responsivness1)
 }
 .head{
     background:linear-gradient(to right bottom, rgba(0,0,0,0), rgba(0,0,0,1)), url(../images2/bg.jpg) center/cover no-repeat fixed;
@@ -23,7 +29,11 @@
 }
 .nav i{
     position:absolute;
+<<<<<<< HEAD
     left:43rem;
+=======
+    left:77rem;
+>>>>>>> 4d8cca7 (Responsivness1)
     top:4px;
     font-size:30px;
     cursor:pointer;
@@ -35,13 +45,232 @@
     MARGIN:0 100px;
     top:15rem;
 }
+<<<<<<< HEAD
 .about p{
     width:40vw;
     height:100vh;
+=======
+.abtx{
+    width:40vw;
+    height:100vh;
+    padding:90px 80px;
+}
+.abtx h2{
+    font-weight:800;
+    font-size:35px;
+    text-align:center;
+}
+.abtx p{
+    font-weight:200;
+>>>>>>> 4d8cca7 (Responsivness1)
 }
 .about  img{
     width:60vw;
     height:100vh;
     float:right;
 }
+<<<<<<< HEAD
 
+=======
+.serv{
+    position:relative;
+}
+#black{
+    height:70vh;
+    background:var(--co3);
+    text-align:center;
+    padding-top:80px;
+    color:var(--co1);
+}
+.ser{
+    position:relative;
+    margin:0 100px;
+}
+#blue{
+    position:relative;
+    background:var(--co2);
+    height:100vh;
+    text-align:left;
+    color:var(--co1);
+}
+.btx{
+    position:absolute;
+    margin:0 60px;
+    top:55%;
+    right:40%;
+}
+#blue img{
+    position:absolute;
+    height:50%;
+    width:30%;
+    top:40%;
+    left:65%;
+}
+.icons{
+    position:absolute;
+    top:23%;
+    margin:0 95px;
+}
+.icons div{
+    display:inline-block;
+    margin:0 20px;
+}
+#des, #dev, #brad{
+    background:var(--co1);
+    height:60vh;
+    width:25vw;
+}
+.icons i{
+    position:relative;
+    top:23%;
+    left:25%;
+    font-size:150px;
+}
+.icons h3{
+    position:relative;
+    top:25%;
+    left:36%;
+    font-weight:300;
+}
+.oc{
+    height:70vh;
+    background:var(--co3);
+}
+.ocl{
+    text-align:center;
+    color:var(--co1);
+    position:relative;
+    top:50px;
+}
+.logos div{
+    display:inline-block;
+}
+.logos img{
+    position:relative;
+    height:130px;
+    width:200px;
+    margin:0 60px;
+    top:150px;
+    opacity:0.25;
+}
+.logos img:hover{
+    opacity:1;
+    cursor:pointer;   
+}
+.says{
+    background:var(--co4);
+    height:90vh;
+    color:var(--co1);
+}
+.says h2{
+    text-align:center;
+    position:relative;
+    top:50px;
+}
+.cl1{
+    text-align:justify;
+    background:var(--co1);
+    color:var(--co4);
+    width:40%;
+    height:50%;
+    position:relative;
+    top:120px;
+    left:50px;
+}
+.cl2{
+    text-align:justify;
+    background:var(--co1);
+    color:var(--co4);
+    width:40%;
+    height:50%;
+    position:relative;
+    bottom:160px;
+    left:55%;
+}
+.cl1 p, .cl2 p{
+    padding:50px 50px;
+}
+.cl1 h3, .cl2 h3{
+    color:var(--co2);
+    position:relative;
+    left:20rem;
+    bottom:2rem;
+}
+.cont{
+    background:var(--co3);
+    color:var(--co1);
+    text-align:center;
+    height:50vh;
+    padding:100px;
+}
+.ct h2{
+    position:relative;
+    bottom:1.5rem;
+    font-weight:500;
+    font-size:30px;
+}
+.forimg img{
+    height:100vh;
+    width:50vw;
+    float:right;
+}
+.form{
+    background:red;
+    height:100vh;
+    width:50vw;
+    padding:60px 100px;
+}
+.form input, textarea{
+    background:red;
+    color:var(--co1);
+    border:none;
+    outline:none;
+    border-bottom:2px solid white;
+    width:100%;
+    padding:15px 0;
+    font-size:16px;
+}
+.form input::placeholder{
+    opacity:1;
+}
+.form textarea::placeholder{
+    opacity:1;
+
+}
+.form button{
+    border:none;
+    padding:10px 40px;
+    position:relative;
+    top:40px;
+}
+.foot{
+    height:20vh;
+    width:100vw;
+    background:var(--co3);
+    color:var(--co1);
+    position:relative;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.foot #fo{
+    margin:0 20px;
+}
+li img{
+    height:15px;
+    width:15px;
+}
+ul{
+    margin:0 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+ul li{
+    list-style: none;
+}
+ul a{
+    display:inline-block;
+    margin:0 10px;
+}
+>>>>>>> 4d8cca7 (Responsivness1)
