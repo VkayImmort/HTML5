@@ -7,13 +7,9 @@
 }
 :root{
     --co1:rgb(255, 255, 255);
-<<<<<<< HEAD
-    --co2:rgba(0,0,255,0.5);
-=======
     --co2:rgb(71, 128, 233);
     --co3:rgb(7, 30, 56);
     --co4:black;
->>>>>>> 4d8cca7 (Responsivness1)
 }
 .head{
     background:linear-gradient(to right bottom, rgba(0,0,0,0), rgba(0,0,0,1)), url(../images2/bg.jpg) center/cover no-repeat fixed;
@@ -29,11 +25,7 @@
 }
 .nav i{
     position:absolute;
-<<<<<<< HEAD
-    left:43rem;
-=======
     left:77rem;
->>>>>>> 4d8cca7 (Responsivness1)
     top:4px;
     font-size:30px;
     cursor:pointer;
@@ -45,11 +37,6 @@
     MARGIN:0 100px;
     top:15rem;
 }
-<<<<<<< HEAD
-.about p{
-    width:40vw;
-    height:100vh;
-=======
 .abtx{
     width:40vw;
     height:100vh;
@@ -62,16 +49,12 @@
 }
 .abtx p{
     font-weight:200;
->>>>>>> 4d8cca7 (Responsivness1)
 }
 .about  img{
     width:60vw;
     height:100vh;
     float:right;
 }
-<<<<<<< HEAD
-
-=======
 .serv{
     position:relative;
 }
@@ -273,4 +256,3 @@ ul a{
     display:inline-block;
     margin:0 10px;
 }
->>>>>>> 4d8cca7 (Responsivness1)
